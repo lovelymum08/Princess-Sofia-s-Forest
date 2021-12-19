@@ -146,7 +146,7 @@ class Game{
                      
                      
                  }
-                 if(frameCount % 2500 === 0){
+                 if(frameCount % 100 === 0){
                     this.addObstacles()
                  }
                  
