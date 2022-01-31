@@ -115,12 +115,6 @@ class Game{
                     player.update();
                 }
 
-                wall1=createSprite(5,500,30,300);
-                wall1.shapeColor="red"
-                wall2=createSprite(990,500,30,300);
-                wall2.shapeColor="red"
-                playersGrp.bounceOff(wall1)
-
                  if (frameCount % 150 === 0) {
                      fruits = createSprite(random(100, 1000), 0, 100, 100);
                      fruits.velocityY = 10;
